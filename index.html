@@ -10,10 +10,12 @@
             max-width: 800px;
             margin: auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #f8f8f8;
+            color: black;
         }
         h1 {
-            color: #333;
+            color: black;
+            text-align: center;
         }
         img {
             width: 200px;
@@ -23,6 +25,9 @@
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
         table, th, td {
             border: 1px solid black;
@@ -30,6 +35,14 @@
         th, td {
             padding: 10px;
             text-align: left;
+        }
+        .profile-box {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 15px;
+            border: 1px solid #ddd;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
@@ -40,10 +53,7 @@
     <img src="/assets/pictures/127716671.jpeg">
     
     <p>
-    <a href="https://snagjincha.github.io/blog" target="_blank">Study Blog</a>
-    </p>
-    <p>
-    <a href="https://snagjincha.github.io/NLP" target="_blank">NLP Blog</a>
+    <a href="https://snagjincha.github.io/" target="_blank">Study Blog</a>
     </p>
 
     <h2>Fields of interest</h2>
@@ -51,23 +61,24 @@
         <li>Statistics</li>
         <li>Natural language processing</li>
         <li>Machine learning</li>
-
     </ul>
     
     <h2>Profile</h2>
-    <table>
-        <tr>
-            <th>Name</th>
-            <td>Sangjin Cha</td>
-        </tr>
-        <tr>
-            <th>Major</th>
-            <td>Statistics , AI</td>
-        </tr>
-        <tr>
-            <th>Fields of interest</th>
-            <td>Statistics, Natural language processing</td>
-        </tr>
-    </table>
+    <div class="profile-box">
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>Sangjin Cha</td>
+            </tr>
+            <tr>
+                <th>Major</th>
+                <td>Statistics , AI</td>
+            </tr>
+            <tr>
+                <th>Fields of interest</th>
+                <td>Statistics, Natural language processing</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
